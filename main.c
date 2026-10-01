@@ -16,9 +16,10 @@ int main(void)
     printf("blocs apres construction : %d\n", liste_blocs_en_circulation());
 
     liste_liberer(liste);
-    liste_liberer(liste2);
     printf("liberee\n");
     printf("blocs apres liberation : %d\n", liste_blocs_en_circulation());
+
+    liste_liberer(liste2);
     return 0;
 
     
